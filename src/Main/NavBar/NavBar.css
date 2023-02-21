@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    min-width: 600px;
+    font-size: 24px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;  
+    /* #bed600; */
+    background-color: #00493b;
+    height: 51px;    
+}
+.navbar ul{
+    padding-left: 40px;
+    display:flex;
+    align-items: center;
+    overflow: auto;
+}
+.navbar li{
+    cursor: pointer;
+    float:right;
+    list-style: none; 
+    padding: 23px 20px;
+    
+}
+.navbar li:hover{
+    transition: 0.5s;
+    background-color: #009879;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navbar li a:hover{
+
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
