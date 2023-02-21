@@ -14,7 +14,6 @@ details > summary {
     transition: height 1s ease;
     font-family: sans-serif;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
 }
 .Candidat[open] {
 	animation-name: fadeInDown;
@@ -170,4 +169,18 @@ details > summary {
 }
 .Coment:nth-of-type(odd) {
     background-color: #f3f3f3;
+}
+.add-candidate_button {
+    cursor: pointer;
+    background-color: white;
+    height: 80%;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: .2rem;
+    justify-self: end;
+    transition: background-color 0.4s ease;
+}
+
+.add-candidate_button:hover {
+    background-color: #e0e0e0;
 }
