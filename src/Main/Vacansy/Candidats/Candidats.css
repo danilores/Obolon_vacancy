@@ -1,0 +1,40 @@
+.Can{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    margin: 0px;
+    background-color: #fff;
+    border-collapse: collapse;
+    transition: height 1s ease;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+.Can[open] {
+	animation-name: fadeInDown;
+  animation-duration: 0.5s;
+}
+.Cand-Sum{
+    border-color: #fff;
+    margin: 0px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background .4s ease-out;
+    height: 40px;
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+
+    align-items: center;
+}
+.Cand-Sum:hover{
+    background-color: #235046;
+}
+.Cand-Sum span{
+    margin-left: 5px;
+}
+.pos-txt{
+    font-size: 18px;
+    padding-bottom: 5px;
+}

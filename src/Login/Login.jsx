@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react'
 import { render } from 'react-dom'
+<<<<<<< HEAD
+=======
+import { Link } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
+>>>>>>> 7dda27d5cb3776af93b6890abbbe8888fe58525a
 import ObolonAPI from '../../services/ObolonAPI';
 import './Login.css'
 import "/obolon_png.png"
@@ -118,7 +123,11 @@ function Login () {
               <img src='obolon_png.png' width="188px" lenght="120px"/>
       <div className="login-form">
         <div className="title">Авторизація</div>
+<<<<<<< HEAD
         {isSubmitted ? <div>Юзер вошёл</div> : renderForm}
+=======
+        {isSubmitted ?  navigate("/Main") : renderForm}
+>>>>>>> 7dda27d5cb3776af93b6890abbbe8888fe58525a
       </div>
     </div>
   );
